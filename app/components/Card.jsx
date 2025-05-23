@@ -1,6 +1,20 @@
+"use client";
+import { useEffect, useState } from "react";
 import { HoverEffect } from "./ui/AceternityCards";
 
 export function Card() {
+  const [projects, setProject] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch("/dummy.json");
+      const json = await res.json();
+      setProject(json);
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
       <div className="text-3xl font-semibold mx-auto pt-10 justify-center flex">
@@ -12,41 +26,3 @@ export function Card() {
     </>
   );
 }
-export const projects = [
-  {
-    title: "Lorem",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    link: "/1",
-  },
-  {
-    title: "Lorem",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    link: "/2",
-  },
-  {
-    title: "Lorem",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    link: "/3",
-  },
-  {
-    title: "Lorem",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    link: "/4",
-  },
-  {
-    title: "Lorem",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    link: "/5",
-  },
-  {
-    title: "Lorem",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    link: "/6",
-  },
-];
