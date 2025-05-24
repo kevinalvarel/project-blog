@@ -1,32 +1,67 @@
-[
-  {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    "link": "/1"
-  },
-  {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    "link": "/2"
-  },
-  {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    "link": "/3"
-  },
-  {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    "link": "/4"
-  },
-  {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    "link": "/5"
-  },
-  {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at beatae quae quasi esse ex magnam ut vel, id ducimus!",
-    "link": "/6"
-  }
-]
+{
+  "blog": [
+    {
+      "title": "Tips Produktif di Era Digital",
+      "description": "Pelajari bagaimana mengatur waktu dan tetap fokus di tengah gangguan digital yang semakin banyak di sekitar kita.",
+      "link": "/blog/tips-produktif"
+    },
+    {
+      "title": "Mengenal JavaScript Lebih Dekat",
+      "description": "Bahas seru tentang sejarah, kekuatan, dan alasan kenapa JavaScript jadi bahasa paling populer di dunia web.",
+      "link": "/blog/javascript-dasar"
+    },
+    {
+      "title": "Cara Bangun Portfolio Front-End yang Menarik",
+      "description": "Langkah-langkah membuat portfolio developer yang bukan cuma keren, tapi juga efektif menarik perhatian recruiter.",
+      "link": "/blog/portfolio-front-end"
+    },
+    {
+      "title": "Kenapa Mental Health Itu Penting?",
+      "description": "Di tengah kesibukan, kadang kita lupa menjaga kesehatan mental. Yuk, kenali pentingnya dan cara-cara simpel untuk jaga diri.",
+      "link": "/blog/mental-health"
+    },
+    {
+      "title": "Belajar React JS dari Nol",
+      "description": "Panduan singkat dan mudah dipahami untuk kamu yang baru mau mulai ngoding pakai React JS.",
+      "link": "/blog/react-js-dasar"
+    },
+    {
+      "title": "Kisah di Balik Startup Kecil yang Jadi Besar",
+      "description": "Inspirasi dari kisah nyata perjuangan membangun startup dari nol sampai dikenal luas oleh banyak orang.",
+      "link": "/blog/startup-story"
+    }
+  ],
+
+  "quotes": [
+    {
+      "quote": "Kerja keras mengalahkan bakat saat bakat tidak bekerja keras.",
+      "name": "Kevin Durant",
+      "title": "Atlet Basket NBA"
+    },
+    {
+      "quote": "Sukses itu bukan akhir, kegagalan bukan kehancuran: yang penting adalah terus berani melangkah.",
+      "name": "Winston Churchill",
+      "title": "Perdana Menteri Inggris"
+    },
+    {
+      "quote": "Jangan menunggu motivasi datang. Mulailah bergerak, dan motivasi akan mengikuti.",
+      "name": "Mel Robbins",
+      "title": "Penulis & Motivator"
+    },
+    {
+      "quote": "Satu-satunya cara untuk melakukan pekerjaan hebat adalah mencintai apa yang kamu lakukan.",
+      "name": "Steve Jobs",
+      "title": "Pendiri Apple"
+    },
+    {
+      "quote": "Hidup adalah 10% tentang apa yang terjadi pada kita dan 90% tentang bagaimana kita meresponsnya.",
+      "name": "Charles R. Swindoll",
+      "title": "Penulis & Pembicara Motivasi"
+    },
+    {
+      "quote": "Tidak ada kata terlambat untuk menjadi apa pun yang kamu inginkan.",
+      "name": "George Eliot",
+      "title": "Penulis"
+    }
+  ]
+}

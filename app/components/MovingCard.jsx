@@ -1,5 +1,6 @@
 "use client";
 
+import data from "@/public/dummy.json";
 import React from "react";
 import { InfiniteMovingCards } from "./ui/AceternityMovingCard";
 
@@ -11,7 +12,7 @@ export function MovingCard() {
       </div>
       <div>
         <InfiniteMovingCards
-          items={testimonials}
+          items={data.quotes}
           direction="right"
           speed="slow"
         />
