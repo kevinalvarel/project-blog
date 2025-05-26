@@ -1,8 +1,8 @@
 "use client";
 
+import { InfiniteMovingCards } from "@/components/ui/AceternityMovingCard";
 import data from "@/public/dummy.json";
 import React from "react";
-import { InfiniteMovingCards } from "./ui/AceternityMovingCard";
 
 export function MovingCard() {
   return (
@@ -20,42 +20,3 @@ export function MovingCard() {
     </div>
   );
 }
-
-const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatibus in recusandae dolorem quaerat minima! Numquam voluptatibus quod, deleniti eveniet officia rem beatae vero quo molestiae nemo, assumenda vitae voluptates.",
-    name: "Charles Anime",
-    title: "A Tale of Two Cities",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatibus in recusandae dolorem quaerat minima! Numquam voluptatibus quod, deleniti eveniet officia rem beatae vero quo molestiae nemo, assumenda vitae voluptates.",
-    name: "Charles Chicken",
-    title: "A Tale of Two Cities",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatibus in recusandae dolorem quaerat minima! Numquam voluptatibus quod, deleniti eveniet officia rem beatae vero quo molestiae nemo, assumenda vitae voluptates.",
-    name: "Charles Arip",
-    title: "A Tale of Two Cities",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatibus in recusandae dolorem quaerat minima! Numquam voluptatibus quod, deleniti eveniet officia rem beatae vero quo molestiae nemo, assumenda vitae voluptates.",
-    name: "Charles Elah",
-    title: "A Tale of Two Cities",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatibus in recusandae dolorem quaerat minima! Numquam voluptatibus quod, deleniti eveniet officia rem beatae vero quo molestiae nemo, assumenda vitae voluptates.",
-    name: "Charles FF",
-    title: "A Tale of Two Cities",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatibus in recusandae dolorem quaerat minima! Numquam voluptatibus quod, deleniti eveniet officia rem beatae vero quo molestiae nemo, assumenda vitae voluptates.",
-    name: "Charles Leclerc",
-    title: "A Tale of Two Cities",
-  },
-];

@@ -8,19 +8,19 @@ export default function Footer() {
         </span>
         <div className="flex space-x-4 mt-2 sm:mt-0">
           <a
-            href="/About"
+            href="/"
             className="hover:text-black dark:hover:text-white transition"
           >
             About
           </a>
           <a
-            href="/Blog"
+            href="/blog"
             className="hover:text-black dark:hover:text-white transition"
           >
             Blog
           </a>
           <a
-            href="/Contact"
+            href="/"
             className="hover:text-black dark:hover:text-white transition"
           >
             Contact

@@ -1,6 +1,6 @@
 "use client";
+import { HeroHighlight, Highlight } from "@/components/ui/AceternityHero";
 import { motion } from "motion/react";
-import { HeroHighlight, Highlight } from "./ui/AceternityHero";
 
 export function Hero() {
   return (

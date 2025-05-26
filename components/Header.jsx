@@ -17,6 +17,10 @@ import { ThemeToggle } from "@/app/components/ThemeToggle";
 export function Header() {
   const navItems = [
     {
+      name: "Home",
+      link: "/",
+    },
+    {
       name: "About",
       link: "/",
     },
@@ -26,7 +30,7 @@ export function Header() {
     },
     {
       name: "Blog",
-      link: "/",
+      link: "/blog",
     },
   ];
 

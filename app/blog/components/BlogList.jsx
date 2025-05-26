@@ -2,7 +2,7 @@
 import data from "@/public/dummy.json";
 import { HoverEffect } from "@/components/ui/AceternityCards";
 
-export function Card() {
+export function BlogList() {
   return (
     <>
       <div className="text-3xl font-semibold mx-auto pt-10 justify-center flex">
