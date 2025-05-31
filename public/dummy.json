@@ -1,31 +1,37 @@
 {
   "blog": [
     {
+      "id": 1,
       "title": "Tips Produktif di Era Digital",
       "description": "Pelajari bagaimana mengatur waktu dan tetap fokus di tengah gangguan digital yang semakin banyak di sekitar kita.",
       "link": "/blog/tips-produktif"
     },
     {
+      "id": 2,
       "title": "Mengenal JavaScript Lebih Dekat",
       "description": "Bahas seru tentang sejarah, kekuatan, dan alasan kenapa JavaScript jadi bahasa paling populer di dunia web.",
       "link": "/blog/javascript-dasar"
     },
     {
+      "id": 3,
       "title": "Cara Bangun Portfolio Front-End yang Menarik",
       "description": "Langkah-langkah membuat portfolio developer yang bukan cuma keren, tapi juga efektif menarik perhatian recruiter.",
       "link": "/blog/portfolio-front-end"
     },
     {
+      "id": 4,
       "title": "Kenapa Mental Health Itu Penting?",
       "description": "Di tengah kesibukan, kadang kita lupa menjaga kesehatan mental. Yuk, kenali pentingnya dan cara-cara simpel untuk jaga diri.",
       "link": "/blog/mental-health"
     },
     {
+      "id": 5,
       "title": "Belajar React JS dari Nol",
       "description": "Panduan singkat dan mudah dipahami untuk kamu yang baru mau mulai ngoding pakai React JS.",
       "link": "/blog/react-js-dasar"
     },
     {
+      "id": 6,
       "title": "Kisah di Balik Startup Kecil yang Jadi Besar",
       "description": "Inspirasi dari kisah nyata perjuangan membangun startup dari nol sampai dikenal luas oleh banyak orang.",
       "link": "/blog/startup-story"

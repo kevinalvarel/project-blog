@@ -11,7 +11,7 @@ export function Project() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-neutral-800 bg-[linear-gradient(180deg,#dbd9d9,#d6d6d6)] dark:text-neutral-300 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]">
           <p>Project 1</p>
-          <DummyContent />
+          <DummyContent1 />
         </div>
       ),
     },
@@ -21,7 +21,7 @@ export function Project() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-neutral-800 bg-[linear-gradient(180deg,#dbd9d9,#d6d6d6)] dark:text-neutral-300 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]">
           <p>Project 2</p>
-          <DummyContent />
+          <DummyContent2 />
         </div>
       ),
     },
@@ -31,7 +31,7 @@ export function Project() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-neutral-800 bg-[linear-gradient(180deg,#dbd9d9,#d6d6d6)] dark:text-neutral-300 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]">
           <p>Project 3</p>
-          <DummyContent />
+          <DummyContent3 />
         </div>
       ),
     },
@@ -41,7 +41,7 @@ export function Project() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-neutral-800 bg-[linear-gradient(180deg,#dbd9d9,#d6d6d6)] dark:text-neutral-300 dark:bg-[linear-gradient(180deg,#27272a,#18181b)]">
           <p>Project 4</p>
-          <DummyContent />
+          <DummyContent4 />
         </div>
       ),
     },
@@ -59,11 +59,44 @@ export function Project() {
   );
 }
 
-const DummyContent = () => {
+const DummyContent1 = () => {
   return (
     <Image
-      src="/linear.webp"
-      alt="dummy image"
+      src="/AnimeList.png"
+      alt="Project 1"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
+  );
+};
+const DummyContent2 = () => {
+  return (
+    <Image
+      src="/Ecommerce.png"
+      alt="Project 2"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
+  );
+};
+const DummyContent3 = () => {
+  return (
+    <Image
+      src="/onebe.png"
+      alt="Project 3"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
+  );
+};
+const DummyContent4 = () => {
+  return (
+    <Image
+      src="/course.png"
+      alt="Project 4"
       width="1000"
       height="1000"
       className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"

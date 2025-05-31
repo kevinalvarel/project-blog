@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/lib/*": ["lib/*"],
+      "@/public/*": ["public/*"]
+    },
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "app/(payload)/layout.jsx",
+    "app/(payload)/admin/[[...segments]]/not-found.js",
+    "app/(payload)/admin/[[...segments]]/page.jsx",
+    "app/(payload)/admin/[[...segments]]/page.js",
+    "payload-types.js",
+    "app/(payload)/api/[...slug]/route.js",
+    "app/(payload)/api/graphql/route.js",
+    "app/(payload)/api/graphql-playground/route.js"
+  ],
+  "exclude": ["node_modules"]
+}

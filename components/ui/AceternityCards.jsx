@@ -17,7 +17,7 @@ export const HoverEffect = ({ items, className }) => {
       {items.map((item, idx) => (
         <a
           href={item?.link}
-          key={item?.link}
+          key={item?.id}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -79,7 +79,7 @@ export const CardDescription = ({ className, children }) => {
   return (
     <p
       className={cn(
-        "mt-8 text-slate-800 dark:text-zinc-200 tracking-wide leading-relaxed text-sm",
+        "mt-8 text-slate-800 dark:text-zinc-200 tracking-wide leading-relaxed text-sm break-words",
         className
       )}
     >

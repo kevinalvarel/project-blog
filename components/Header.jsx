@@ -12,7 +12,7 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "./ui/AceternityNavbar";
-import { ThemeToggle } from "@/app/components/ThemeToggle";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   const navItems = [
@@ -47,6 +47,15 @@ export function Header() {
             <NavbarButton variant="secondary" className="rounded-full">
               <ThemeToggle />
             </NavbarButton>
+            <NavbarButton
+              onClick={() => setIsMobileMenuOpen(false)}
+              variant="primary"
+              href="/admin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Login
+            </NavbarButton>
           </div>
         </NavBody>
 
@@ -80,6 +89,13 @@ export function Header() {
                 variant="primary"
               >
                 <ThemeToggle />
+              </NavbarButton>
+              <NavbarButton
+                onClick={() => setIsMobileMenuOpen(false)}
+                variant="primary"
+                href="/admin"
+              >
+                Login
               </NavbarButton>
             </div>
           </MobileNavMenu>
