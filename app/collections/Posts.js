@@ -1,10 +1,6 @@
-import { revalidatePost } from "../../hooks/revalidatePost";
-
 export const Posts = {
   slug: "posts",
-  hooks: {
-    afterChange: [revalidatePost], // Revalidasi saat post dibuat/diupdate
-  },
+
   fields: [
     {
       name: "title",
