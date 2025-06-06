@@ -13,7 +13,6 @@ export async function PostsSection() {
       },
     },
   });
-  console.log(posts);
 
   return (
     <>

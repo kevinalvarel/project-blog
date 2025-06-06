@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./*"],
       "@payload-config": ["./payload.config.js"],
       "@/lib/*": ["./lib"],
       "@/app/*": ["./app"],
