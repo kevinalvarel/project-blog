@@ -17,7 +17,7 @@ export async function BlogList() {
   return (
     <>
       <div className="text-3xl font-semibold mx-auto justify-center flex">
-        <h1>Latest Blog</h1>
+        <h1>Blog</h1>
       </div>
       <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={post.docs} href={`/posts/${post.id}`} />
