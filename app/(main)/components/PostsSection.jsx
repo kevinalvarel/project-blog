@@ -1,6 +1,7 @@
 import { HoverEffect } from "@/components/ui/AceternityCards";
 import { getPayload } from "../../../lib/payload";
 
+export const dynamic = "force-dynamic";
 export async function PostsSection() {
   const payload = await getPayload();
   const posts = await payload.find({
